@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Glup</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="./monster_logo.png" alt="Logo de Glup">
+        <nav>  
+            <a class="nav" href="index.html">Inicio</a>
+            <a  class="nav"href="contacto.html" class="active">Contacto</a>           
+        </nav>
+    </header>
+
+    <main class="contacto-main">
+        <section class="form-section">
+            <h1>Contacta con Glup</h1>
+            <p>
+                Envíanos un mensaje y Glup te responderá
+                lo antes posible.
+            </p>
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tu@email.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea
+                        id="comentario"
+                        name="comentario"
+                        rows="5"
+                        placeholder="Escribe tu mensaje aquí..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn-send">
+                    Enviar
+                </button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p class="copy">Creado por Gianella</p>
+        <a href="" target="_blank">GitHub</a>
+    </footer>
+
+</body>
+</html>
+
